@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+}
+
+/* ---------------- NAV BAR -------------------- */
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+
+#nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+
+}
+
+
+/* ----------- HERO SECTION  ------------*/
+
+#hero {
+    width: 100%;
+    height: 100vh;
+}
+
+/* -------- HERO HEADING ----------------*/
+
+#hero__heading {
+    width: 100%;
+    height: 40vh;
+
+    margin-top: 8rem;
+    margin-left: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    line-height: 9rem;
+
+    color: #A3A3A3;
+    font-family: 'Oswald', sans-serif;
+}
+
+#hero__heading>h1 {
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 600;
+    font-size: 10rem;
+
+    text-transform: uppercase;
+}
+
+.hero__heading-1 {
+    padding: none;
+}
+
+.hero__heading-2 {
+    margin-left: 8rem;
+    padding: none;
+    
+    display: flex;
+    
+}
+
+.hero__heading-3 {
+    /* position: absolute; */
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+    margin-left: 54.5rem;
+
+    font-size: 1.1rem;
+    color: aliceblue;
+    line-height: 85%;
+    padding-top: 0.5rem;
+    
+}
+
+/* ------------ second page ----------------- */
+
+#second {
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* ---------- About --------- */
+
+#about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #fff;
+    padding: 32vw 10vh;
+    padding-left: 30vw;
+    width: 100%;
+    background-color: black;
+
+    width: 100%;
+    height: 80%;
+}
+
+#textabout {
+    width: 25rem;
+}
+
+#textabout h5 {
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#about img {
+    width: 300px;
+    border-radius: 50%;
+    border:  5px solid;
+    border-color: #fff;
+}
+
+#textabout a {
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+/* ---------- Subscriber- Session -------- */
+
+#subscribe {
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+    background-color: black;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+/* ----------Footer--------- */
+
+#footer {
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+
+#footerright {
+    display: flex;
+    gap: 30px;
+}
+
+#footer a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
